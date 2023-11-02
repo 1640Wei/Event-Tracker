@@ -29,6 +29,7 @@ Hello, I am Wei. 🌩
 
 ### Update Log:
 - Version 1.0.0 (Nov 2, 2023)
+
 Initial release, featuring the basic GUI and event tracker functionality.
 
 
