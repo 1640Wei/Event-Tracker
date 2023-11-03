@@ -6,7 +6,7 @@ Hello, I am Wei. 🌩
 ### Date:  Nov 3, 2023
 
 ### Description:
-Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONET) API.
+This project retrieves event data through the NASA Earth Observatory Natural Event Tracker (EONET) API. Users can input dates through a GUI and display events that fall within the specified date range.
 
 ### Technologies Used:
 - **Python**: Primary programming language.
