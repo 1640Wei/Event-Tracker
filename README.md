@@ -29,6 +29,9 @@ This project retrieves event data through the NASA Earth Observatory Natural Eve
 
 - Enter the start date and end date, then click the Submit button. If there are events within the specified range, they will be displayed in the scrolling text box below.
 
+<img width="300" height="400" src="https://github.com/1640Wei/Event-Tracker/blob/8d74c7a9a7d870569bc24d95cd7c55fd87b1ffe4/picture/1.png">   
+<img width="300" height="400" src="https://github.com/1640Wei/Event-Tracker/blob/8d74c7a9a7d870569bc24d95cd7c55fd87b1ffe4/picture/2.png">
+
 ### Notice:
 
 #### 1. 
