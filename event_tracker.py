@@ -1,12 +1,10 @@
 import requests
 import socket
 
-
 def set_dns(server_ip):
     # 使用 socket 设置 DNS 服务器
     socket.create_connection((server_ip, 53), timeout=10)
     socket.setdefaulttimeout(10)
-
 
 def get_nasa_events():
     # 设置你想要使用的 DNS 服务器，这里以 Google DNS 为例
@@ -50,7 +48,6 @@ def get_nasa_events():
             print("無法取得數據，錯誤碼:", response.status_code)
     except requests.exceptions.RequestException as e:
         print("發生錯誤:", e)
-
 
 if __name__ == "__main__":
     get_nasa_events()
