@@ -3,7 +3,7 @@ Hello, I am Wei. 🌩
 
 ### Project Name:  Event Tracker
 
-### Date:  Nov 2, 2023
+### Date:  Nov 3, 2023
 
 ### Description:
 Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONET) API.
@@ -22,7 +22,7 @@ Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONE
 
 ### Project Structure:：
 - `gui.py`：Main code for the GUI interface.
-- `event_tracker.py`：
+- `event_tracker.py`：Main code for handling event tracking functionality
 
 
 ### Example:
@@ -34,7 +34,7 @@ Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONE
 
 
 ### Update Log:
-- Version 1.0.0 (Nov 2, 2023)
+- Version 1.0.0 (Nov 3, 2023)
 
 Initial release, featuring the basic GUI and event tracker functionality.
 
