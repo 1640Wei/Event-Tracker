@@ -13,6 +13,12 @@ Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONE
   
 - **Tkinter**: Python library for building GUI (graphical user interfaces).
 
+- **Requests Library**: Used for making HTTP requests to retrieve data from the EONET API.
+
+- **Socket Library**: Employed to configure DNS servers within the `set_dns` function.
+
+- **JSON Library**: Utilized for parsing JSON-formatted data obtained from the API.
+
 
 ### Project Structure:：
 - `gui.py`：Main code for the GUI interface.
