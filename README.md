@@ -27,6 +27,7 @@ This project retrieves event data through the NASA Earth Observatory Natural Eve
 
 ### Example:
 
+- Enter the start date and end date, then click the Submit button. If there are events within the specified range, they will be displayed in the scrolling text box below.
 
 ### Notice:
 
