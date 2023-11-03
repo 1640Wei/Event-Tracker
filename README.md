@@ -6,7 +6,7 @@ Hello, I am Wei. 🌩
 ### Date:  Nov 2, 2023
 
 ### Description:
-
+Retrieve event data through NASA's Earth Observatory Natural Event Tracker (EONET) API.
 
 ### Technologies Used:
 - **Python**: Primary programming language.
