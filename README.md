@@ -34,8 +34,6 @@ This project retrieves event data through the NASA Earth Observatory Natural Eve
 
 ### Notice:
 
-#### 1. 
-
 
 ### Update Log:
 - Version 1.0.0 (Nov 3, 2023)
