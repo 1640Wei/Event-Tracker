@@ -34,6 +34,19 @@ This project retrieves event data through the NASA Earth Observatory Natural Eve
 
 ### Notice:
 
+#### 1. DNS Configuration
+
+DNS (Domain Name System) is a service that translates human-readable domain names into machine-understandable IP addresses. In this project, the accuracy of DNS configuration ensures that the program accurately resolves domain names to their corresponding IP addresses, facilitating successful sending and receiving of network requests. Incorrect DNS configuration could lead to failed domain name resolution, preventing the code from accessing external resources, such as an API. 
+
+To ensure smooth communication, the project utilizes Google's public DNS server (8.8.8.8).
+
+```python
+dns_server = "8.8.8.8"
+set_dns(dns_server)
+```
+
+#### 2. 
+
 
 ### Update Log:
 - Version 1.0.0 (Nov 3, 2023)
