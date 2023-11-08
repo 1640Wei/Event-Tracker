@@ -45,8 +45,33 @@ dns_server = "8.8.8.8"
 set_dns(dns_server)
 ```
 
-#### 2. 
+#### 2. API Usage:
+An API (Application Programming Interface) provides an interface that allows different software systems to communicate and exchange information. The purpose of this project is to utilize the NASA EONET API, which offers information about natural events on Earth, such as volcanic eruptions, hurricanes, and more.
 
+**Steps for an API Request**:
+
+1.Select the API URL.
+
+```python
+api_url = "https://eonet.gsfc.nasa.gov/api/v3/events"
+```
+2.Choose the HTTP method: Typically, the GET method is used to retrieve data.
+
+3.Send the request: Use the HTTP request function in the code to send a request to the API.
+
+4.Handle the response: Once a response is received from the API, use the code to process it, often by converting it into an easily manageable format like JSON.
+
+5.Verify success: Check the API response's status code; a status code of 200 usually indicates success.
+
+```python
+try:
+       response = requests.get(api_url)
+
+
+       if response.status_code == 200:
+           data = response.json()
+           events = data.get("events", [])
+```
 
 ### Update Log:
 - Version 1.0.0 (Nov 3, 2023)
